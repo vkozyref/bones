@@ -44,6 +44,10 @@ class PlayerState {
             return new ThrowBonesResponse(false);
         }
 
+        if(shotResult.isEarlyVictory) {
+            return new ThrowBonesResponse(false, true);
+        }
+
         if (shotResult.repeatState === RepeatState.required) {
             this.doublesInRow += 1;
 
@@ -54,7 +58,7 @@ class PlayerState {
             }
         } else {
             this.doublesInRow = 0;
-            if(this.score + this.shotScore + shotResult.score === VictoryTreshold || shotResult.isEarlyVictory) {
+            if(this.score + this.shotScore + shotResult.score === VictoryTreshold) {
                 return new ThrowBonesResponse(false, true);
             }
         }
