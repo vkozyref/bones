@@ -1,6 +1,6 @@
-import React from 'react';
+import { Component } from 'react';
 
-export default class Player extends React.Component {
+export default class Player extends Component {
     render() {
         return (
             <div className="player-item">

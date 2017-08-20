@@ -1,11 +1,11 @@
-import React from 'react';
+import { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Game from './Game';
 import Rules from './Rules';
 import GameList from './GameList';
 import Login from './Login';
 
-export default class Main extends React.Component {
+export default class Main extends Component {
     render() {
         return (
             <Switch>

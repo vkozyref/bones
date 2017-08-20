@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 
 const games = [
     {
@@ -15,7 +15,7 @@ const games = [
     }
 ]
 
-export default class GameList extends React.Component {
+export default class GameList extends Component {
     render() {
         return (
             <div>

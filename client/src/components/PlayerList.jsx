@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import Player from './Player';
 
 const players = [
@@ -14,7 +14,7 @@ const players = [
     }
 ]
 
-export default class PlayerList extends React.Component {
+export default class PlayerList extends Component {
     render() {
         return (
             <div className="players">

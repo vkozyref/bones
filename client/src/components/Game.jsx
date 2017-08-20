@@ -1,8 +1,8 @@
-import React from 'react';
+import { Component } from 'react';
 import PlayerList from './PlayerList';
 import Playground from './Playground';
 
-export default class Game extends React.Component {
+export default class Game extends Component {
     render() {
         return (
             <div>
