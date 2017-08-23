@@ -1,15 +1,20 @@
 # Bones client app
 
-## Production ENV run
+## Production run
 
 ```sh
  yarn
  yarn build:prod
 ```
 
-## Development ENV Run
+## Development Run
 
 ```sh
  yarn
  yarn serve
+```
+## Check code
+
+```sh
+ yarn lint
 ```
