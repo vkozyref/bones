@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 
 import GameList from './';
 
-test('GameList component ', () => {
+test('GameList component', () => {
   const wrapper = shallow(<GameList />);
   expect(wrapper).toHaveLength(1);
 });
