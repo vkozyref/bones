@@ -1,5 +1,7 @@
 # Bones client app
 
+[![CircleCI](https://img.shields.io/circleci/project/github/vkozyref/bones/master.svg)](https://circleci.com/gh/vkozyref/bones)
+
 ## Production run
 
 ```sh
